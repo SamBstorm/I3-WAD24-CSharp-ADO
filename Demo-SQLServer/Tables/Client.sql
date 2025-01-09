@@ -1,0 +1,10 @@
+﻿CREATE TABLE [dbo].[Client]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL CONSTRAINT [PK_Client_ID] PRIMARY KEY DEFAULT NEWID(), 
+    [LastName] NVARCHAR(50) NOT NULL,
+    [FirstName] NVARCHAR(50) NOT NULL, 
+    [CreateDate] DATE NOT NULL DEFAULT GETDATE(), 
+    [Email] NVARCHAR(320) NOT NULL, 
+    CONSTRAINT [UK_Client_Email] UNIQUE ([Email]), 
+    CONSTRAINT [FK_Client_User] FOREIGN KEY ([Email]) REFERENCES [User]([Email])
+)
