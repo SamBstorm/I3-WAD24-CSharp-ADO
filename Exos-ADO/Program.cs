@@ -9,7 +9,8 @@ namespace Exos_ADO
         const string ConnectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=DBSlide;Integrated Security=True;Encrypt=False";
         static void Main(string[] args)
         {
-            /* Mode Connecté */
+            /* Mode Connecté
+            
             Console.WriteLine($"Voici la liste des sections, veuillez en sélectionner une :");
             using (SqlConnection connection = new SqlConnection(Program.ConnectionString))
             {
@@ -56,6 +57,8 @@ namespace Exos_ADO
                     connection.Close();
                 }
             }
+            */
+            /* Mode Déconnecté 
             List<Personne> personnes = new List<Personne>();
             DataTable datas = new DataTable();
             using (SqlConnection connection = new SqlConnection(ConnectionString))
@@ -75,6 +78,24 @@ namespace Exos_ADO
             {
                 Console.WriteLine($"{p.Prenom} {p.Nom}");
             }
+            */
+
+            /* DML */
+            Student s = new Student("Samuel", "Legrain", new DateTime(1987, 9, 27), 1120);
+
+            using (SqlConnection connection = new SqlConnection(ConnectionString))
+            {
+                using (SqlCommand command = connection.CreateCommand()) 
+                {
+                    command.CommandText = $"INSERT INTO [student] ([first_name], [last_name], [birth_date], [login], [year_result], [section_id], [course_id]) OUTPUT [inserted].[student_id] VALUES ('{s.First_Name}', '{s.Last_Name}','{s.Birth_Date.ToString("yyyy-MM-dd")}','{s.Login}', {(object)s.Year_Result ?? "NULL"}, {s.Section_id}, '{s.Course_Id}')";
+                    connection.Open();
+                    s.Student_Id = (int)command.ExecuteScalar();
+                    connection.Close();
+                }
+            }
+
+            Console.WriteLine($"L'étudiant {s.First_Name} {s.Last_Name} est bien enregistré, il a l'identifiant {s.Student_Id}.");
+
         }
     }
 }
