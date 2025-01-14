@@ -5,7 +5,9 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Demo-SQLServer", "Demo-SQLServer\Demo-SQLServer.sqlproj", "{1EE72FCE-032D-4962-8566-6A9B7EA2AAB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-ADO", "Demo-ADO\Demo-ADO.csproj", "{24A5F2E0-69FF-450B-B14A-0D8AD7AC033F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-ADO", "Demo-ADO\Demo-ADO.csproj", "{24A5F2E0-69FF-450B-B14A-0D8AD7AC033F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exos-ADO", "Exos-ADO\Exos-ADO.csproj", "{694ADAB3-F036-4459-B9EA-BB81EF08A2ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{24A5F2E0-69FF-450B-B14A-0D8AD7AC033F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24A5F2E0-69FF-450B-B14A-0D8AD7AC033F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24A5F2E0-69FF-450B-B14A-0D8AD7AC033F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{694ADAB3-F036-4459-B9EA-BB81EF08A2ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{694ADAB3-F036-4459-B9EA-BB81EF08A2ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{694ADAB3-F036-4459-B9EA-BB81EF08A2ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{694ADAB3-F036-4459-B9EA-BB81EF08A2ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
