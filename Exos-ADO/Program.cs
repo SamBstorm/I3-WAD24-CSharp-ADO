@@ -9,7 +9,7 @@ namespace Exos_ADO
         const string ConnectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=DBSlide;Integrated Security=True;Encrypt=False";
         static void Main(string[] args)
         {
-            /* Mode Connecté
+            /* Mode Connecté */
             Console.WriteLine($"Voici la liste des sections, veuillez en sélectionner une :");
             using (SqlConnection connection = new SqlConnection(Program.ConnectionString))
             {
@@ -56,7 +56,6 @@ namespace Exos_ADO
                     connection.Close();
                 }
             }
-        */
             List<Personne> personnes = new List<Personne>();
             DataTable datas = new DataTable();
             using (SqlConnection connection = new SqlConnection(ConnectionString))

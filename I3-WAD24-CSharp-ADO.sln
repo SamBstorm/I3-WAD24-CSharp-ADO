@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-ADO", "Demo-ADO\Demo-A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exos-ADO", "Exos-ADO\Exos-ADO.csproj", "{694ADAB3-F036-4459-B9EA-BB81EF08A2ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Ado-DML", "Demo-Ado-DML\Demo-Ado-DML.csproj", "{616AA968-79E5-4D9F-BCAC-3179EDF5A362}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{694ADAB3-F036-4459-B9EA-BB81EF08A2ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{694ADAB3-F036-4459-B9EA-BB81EF08A2ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{694ADAB3-F036-4459-B9EA-BB81EF08A2ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{616AA968-79E5-4D9F-BCAC-3179EDF5A362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{616AA968-79E5-4D9F-BCAC-3179EDF5A362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{616AA968-79E5-4D9F-BCAC-3179EDF5A362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{616AA968-79E5-4D9F-BCAC-3179EDF5A362}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
