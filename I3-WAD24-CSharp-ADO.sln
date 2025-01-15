@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Ado-DML", "Demo-Ado-DM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exos-ADO-Params", "Exos-ADO-Params\Exos-ADO-Params.csproj", "{2F7CE3E7-B798-43EA-B50A-467C748F749C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-ADO-StoredProcedures", "Demo-ADO-StoredProcedures\Demo-ADO-StoredProcedures.csproj", "{9E6AC241-68B3-4329-87D6-6BAE38D766FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{2F7CE3E7-B798-43EA-B50A-467C748F749C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F7CE3E7-B798-43EA-B50A-467C748F749C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F7CE3E7-B798-43EA-B50A-467C748F749C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E6AC241-68B3-4329-87D6-6BAE38D766FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E6AC241-68B3-4329-87D6-6BAE38D766FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E6AC241-68B3-4329-87D6-6BAE38D766FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E6AC241-68B3-4329-87D6-6BAE38D766FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
