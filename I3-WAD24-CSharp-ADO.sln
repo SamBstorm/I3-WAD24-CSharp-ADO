@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exos-ADO-Params", "Exos-ADO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-ADO-StoredProcedures", "Demo-ADO-StoredProcedures\Demo-ADO-StoredProcedures.csproj", "{9E6AC241-68B3-4329-87D6-6BAE38D766FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-ToolBox", "Demo-ToolBox\Demo-ToolBox.csproj", "{82BCAA10-09AE-45E1-862E-D94B54F11625}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-ToolBox-Console", "Demo-ToolBox-Console\Demo-ToolBox-Console.csproj", "{0D349FFA-4B5F-484E-885F-65B40C8333A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +51,14 @@ Global
 		{9E6AC241-68B3-4329-87D6-6BAE38D766FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E6AC241-68B3-4329-87D6-6BAE38D766FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E6AC241-68B3-4329-87D6-6BAE38D766FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82BCAA10-09AE-45E1-862E-D94B54F11625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82BCAA10-09AE-45E1-862E-D94B54F11625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82BCAA10-09AE-45E1-862E-D94B54F11625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82BCAA10-09AE-45E1-862E-D94B54F11625}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D349FFA-4B5F-484E-885F-65B40C8333A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D349FFA-4B5F-484E-885F-65B40C8333A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D349FFA-4B5F-484E-885F-65B40C8333A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D349FFA-4B5F-484E-885F-65B40C8333A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
